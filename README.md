@@ -6,6 +6,7 @@ For Rhyme Generation Code, please find it [here](https://github.com/Marjan-GH/To
 For RNN with FSA decoding code, please find it [here](https://github.com/isi-nlp/Zoph_RNN/blob/master/README_XING.md)
 
 ## (EDIT) Additional Preparation
+I recommend running this on a machine with CUDA and nvidia GPUs such as the deep-learning vm on Google Cloud
 Install [git-lfs](https://github.com/git-lfs/git-lfs/wiki/Installation) in order to download the model which is 1GB
 
 Navigate to /exec and run:
