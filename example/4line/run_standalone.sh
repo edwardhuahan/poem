@@ -1,5 +1,5 @@
 SCRIPTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-ROOT_DIR=$SCRIPTDIR/../../
+ROOT_DIR=$SCRIPTDIR/../..
 MODEL=$ROOT_DIR/models/lyrics.tl.nn
 SOURCE=$SCRIPTDIR/source.txt
 FSA=$SCRIPTDIR/poem.fsa
