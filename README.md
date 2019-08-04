@@ -5,6 +5,15 @@ This is the code for the whole pipeline and web interface described in [Hafez: a
 For Rhyme Generation Code, please find it [here](https://github.com/Marjan-GH/Topical_poetry)
 For RNN with FSA decoding code, please find it [here](https://github.com/isi-nlp/Zoph_RNN/blob/master/README_XING.md)
 
+## (EDIT) Additional Preparation
+Install [git-lfs](https://github.com/git-lfs/git-lfs/wiki/Installation) in order to download the model which is 1GB
+
+Navigate to /exec and run:
+'''
+chmod +x ZOPH_RNN_GPU_EXPAND
+'''
+This makes the RNN executable as a file
+
 ## Preparation
 
 0. Unzip the RNN model files in `models`:
