@@ -9,9 +9,9 @@ For RNN with FSA decoding code, please find it [here](https://github.com/isi-nlp
 Install [git-lfs](https://github.com/git-lfs/git-lfs/wiki/Installation) in order to download the model which is 1GB
 
 Navigate to /exec and run:
-'''
+```
 chmod +x ZOPH_RNN_GPU_EXPAND
-'''
+```
 This makes the RNN executable as a file
 
 ## Preparation
