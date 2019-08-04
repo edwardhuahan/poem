@@ -9,7 +9,7 @@ import multiprocessing
 scriptdir = os.path.dirname(os.path.abspath(__file__))
 root_dir = os.path.dirname(scriptdir)
 py_dir = os.path.join(root_dir,"py")
-exec_path = os.path.join(root_dir,'exec/ZOPH_RNN_GPU_EXPAND') 
+exec_path = os.path.join(root_dir,'exec/./ZOPH_RNN_GPU_EXPAND') 
 cwd=""
 
 
@@ -114,7 +114,7 @@ def process(model_path,source_path,fsa_path, encourage_path, output_path, beam_s
     env = {}
     env["OMP_NUM_THREADS"] = str(multiprocessing.cpu_count())
 
-    p = sp.Popen(cmd,cwd=root_dir,stdout=sp.PIPE, stderr=sp.PIPE,env=env)
+    p = sp.Popen(cmd,cwd=root_dir,stdout=sp.PIPE, stderr=sp.PIPE,env=env, shell=True)
     out, err = p.communicate()
     
     #print out
