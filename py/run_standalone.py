@@ -114,8 +114,9 @@ def process(model_path,source_path,fsa_path, encourage_path, output_path, beam_s
     env = {}
     env["OMP_NUM_THREADS"] = str(multiprocessing.cpu_count())
 
-    p = sp.Popen(cmd,cwd=root_dir,stdout=sp.PIPE, stderr=sp.PIPE,env=env, shell=True)
-    out, err = p.communicate()
+    os.system(" ".join(cmd))
+#    p = sp.Popen(cmd,cwd=root_dir,stdout=sp.PIPE, stderr=sp.PIPE,env=env, shell=True)
+#    out, err = p.communicate()
     
     #print out
     
