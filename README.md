@@ -23,16 +23,15 @@ Due to the model's large size (more than 1GB), please download here: [lyrics.tl.
 ```
 cd models
 gunzip lyrics.tl.nn.gz
-gunzip lyrics.tl.topdown.nn.gz
 ```
 1. Copy the rhyme generation code into the folder `sonnet-project-for-server/`
 
 ```
 cd sonnet-project-for-server
-git clone https://github.com/Marjan-GH/Topical_poetry
+git clone https://github.com/edwardhuahan/Topical_poetry
 ```
 
-2. Follow the [instruction](https://github.com/Marjan-GH/Topical_poetry/blob/master/README.md) to start the server for `Rhyme Generation`.
+2. Follow the [instruction](https://github.com/edwardhuahan/Topical_poetry) to start the server for `Rhyme Generation`.
 
 
 ## Generate a 4-line poem from command line
