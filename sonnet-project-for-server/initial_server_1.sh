@@ -1,1 +1,0 @@
-./phrase_to_accepted_phrases_server 50001

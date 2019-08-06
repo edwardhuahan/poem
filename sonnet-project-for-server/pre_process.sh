@@ -1,4 +1,0 @@
-g++ -o make_complete_fsa_without_rhyme-different_line_number-auto make_complete_fsa_without_rhyme-different_line_number-auto.cpp 
-./make_complete_fsa_without_rhyme-different_line_number-auto 2
-./make_complete_fsa_without_rhyme-different_line_number-auto 4
-./make_complete_fsa_without_rhyme-different_line_number-auto 14
