@@ -24,10 +24,9 @@ Due to the model's large size (more than 1GB), please download here: [lyrics.tl.
 cd models
 gunzip lyrics.tl.nn.gz
 ```
-1. Copy the rhyme generation code into the folder `sonnet-project-for-server/`
+1. Copy the rhyme generation code into the project folder
 
 ```
-cd sonnet-project-for-server
 git clone https://github.com/edwardhuahan/Topical_poetry
 ```
 
