@@ -1,9 +1,6 @@
-# Hafez: an Interactive Poetry Generation System
+# Poetnet
 
-This is the code for the whole pipeline and web interface described in [Hafez: an Interactive Poetry Generation System](http://xingshi.me/data/pdf/ACL2017demo.pdf).
-
-For Rhyme Generation Code, please find it [here](https://github.com/Marjan-GH/Topical_poetry)
-For RNN with FSA decoding code, please find it [here](https://github.com/isi-nlp/Zoph_RNN/blob/master/README_XING.md)
+This is a webapp that takes a photo input and generates a poem out of it. Poetnet is also based off of shixing's poem repo
 
 ## (EDIT) Additional Preparation
 I recommend running this on a machine with CUDA and nvidia GPUs such as the deep-learning vm on Google Cloud
@@ -65,3 +62,12 @@ we took a ride across the river valley ,
 and now i got to find my own location .
 ```
 
+3. Run the server
+First, go to the rhyme generation folder
+```
+cd Topical-Poetry
+```
+Initiate the rhyme server as indicated in the guide for that segment, and run web.py
+```
+python web.py
+```
