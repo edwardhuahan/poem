@@ -62,7 +62,8 @@ we took a ride across the river valley ,
 and now i got to find my own location .
 ```
 
-3. Run the server
+3. Run the server:
+
 First, go to the rhyme generation folder
 ```
 cd Topical-Poetry
